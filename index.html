@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Key Press Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="alphabet">
+        <div id="game">
+            <h1 id="letter"></h1>
+            <p>正解: <span id="positive-score">0</span></p>
+            <p>不正解: <span id="negative-score">0</span></p>
+            <button id="start-button" class="start">スタート</button>
+            <p>残り時間: <span id="time-left">30</span>秒</p>
+            <p id="result" style="display:none;">終了！</p>
+        </div>
+    </div>
+    
+    <div class="cntainer">
+        <div class="buttons">
+            <button id="Q" class="key-btn">Q</button>
+            <button id="W" class="key-btn">W</button>
+            <button id="E" class="key-btn">E</button>
+            <button id="R" class="key-btn">R</button>
+            <button id="T" class="key-btn">T</button>
+            <button id="Y" class="key-btn">Y</button>
+            <button id="U" class="key-btn">U</button>
+            <button id="I" class="key-btn">I</button>
+            <button id="O" class="key-btn">O</button>
+            <button id="P" class="key-btn">P</button>
+        </div>
+        <div class="buttons1">
+            <button id="A" class="key-btn1">A</button>
+            <button id="S" class="key-btn1">S</button>
+            <button id="D" class="key-btn1">D</button>
+            <button id="F" class="key-btn1">F</button>
+            <button id="G" class="key-btn1">G</button>
+            <button id="H" class="key-btn1">H</button>
+            <button id="J" class="key-btn1">J</button>
+            <button id="K" class="key-btn1">K</button>
+            <button id="L" class="key-btn1">L</button>
+        </div>
+        <div class="buttons2">
+            <button id="Z" class="key-btn2">Z</button>
+            <button id="X" class="key-btn2">X</button>
+            <button id="C" class="key-btn2">C</button>
+            <button id="V" class="key-btn2">V</button>
+            <button id="B" class="key-btn2">B</button>
+            <button id="N" class="key-btn2">N</button>
+            <button id="M" class="key-btn2">M</button>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
