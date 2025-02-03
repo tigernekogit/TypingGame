@@ -1,0 +1,110 @@
+.alphabet {
+    position: relative;
+    top: 100px;
+    left: 450px;
+    font-size: 30px;
+}
+
+.start {
+    width: 100px;
+    height: 50px;
+    margin-right: 5px;
+    transition: transform 0.1s, box-shadow 0.1s;
+    box-shadow: 0 8px rgb(101, 159, 207);
+    border: none;
+    background-color: #9fdcff;
+    color: #0195eb;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.start:active {
+    transform: translateY(8px);
+    box-shadow: none;
+}
+
+.cntainer {
+    position: relative;
+    top: 150px;
+    left: 200px;
+    width: 615px;
+    height: 210px;
+    border-radius: 10px;
+    background-color: #4d4d4d
+
+}
+
+.buttons {
+    position: relative;
+    top: 10px;
+    left: 10px; 
+}
+
+.key-btn {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    transition: transform 0.1s, box-shadow 0.1s;
+    box-shadow: 0 8px rgb(189, 189, 189);
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 25px;
+    outline: none;
+}
+
+.key-btn.pressed {
+    transform: translateY(8px);
+    background-color: #94eaff;
+    box-shadow: none;
+}
+
+.key-btn1 {
+    position: relative;
+    top: 25px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    transition: transform 0.1s, box-shadow 0.1s;
+    box-shadow: 0 8px rgb(189, 189, 189);
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 25px;
+    outline: none;
+}
+
+.key-btn1.pressed {
+    transform: translateY(8px);
+    box-shadow: none;
+    background-color: #94eaff;
+}
+
+.key-btn2 {
+    position: relative;
+    top: 40px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    transition: transform 0.1s, box-shadow 0.1s;
+    box-shadow: 0 8px rgb(189, 189, 189);
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 25px;
+    outline: none;
+}
+
+.key-btn2.pressed {
+    transform: translateY(8px);
+    box-shadow: none;
+    background-color: #94eaff;
+}
